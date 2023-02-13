@@ -1,16 +1,17 @@
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(240, 234, 234);
   }
   
   header{
     height: 50vh;
+    width: 100%;
   }
   header h1{
-    top:-20rem;
+    top:-25rem;
     position: relative;
-    color: black;
+    color: rgb(36, 36, 36);
     font-size: 100px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
   }
   header img{
     position: relative;
@@ -19,9 +20,7 @@ body {
   }
   
   nav {
-    background-color: #a1b5ec;
-    color: white;
-    display: inline-block;
+    background-color: #c0ccec;
     width: 15em;
     height: 15rem;
     text-align: center;
@@ -30,20 +29,29 @@ body {
     top: 400px;
   }
 
+nav a{
+  line-height: 70px;
+  font-size: large;
+  color: #2b2b2b;
+}
+
   .logo {
     position: absolute;
     z-index: 1;
     width: 10%;
     left: 70rem;
-    top: 20rem;
+    top: 18rem;
+    box-shadow: 1px 1px 10px 1px #000000;
+    background-color: #d7e0fa;
   }
   h2{
     width: 100%;
     height: 50px;
     position: absolute;
+    font-size:xx-large;
     text-align: center;
-    color: black;
-    background-color: rgb(189, 72, 140);
+    color: rgb(41, 40, 40);
+    background-color: rgb(218, 165, 195);
     top: 20rem;
   }
   .text{
