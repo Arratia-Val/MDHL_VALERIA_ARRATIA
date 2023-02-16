@@ -1,0 +1,31 @@
+
+table {
+    border: 5px solid #65979540;
+    border-collapse: separate;
+    background-color: #fafafa;
+    width:auto;
+  }
+   tbody {
+    border: blue 5px solid;
+    border-collapse: separate;
+    background-color: #e9eff0;
+    width:auto;
+  }
+  table > thead > tr > th {
+    padding: 1em;
+    background-color: #80ccc8;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  table > tbody > tr > td {
+    padding: 0.5em;
+    text-align: center;
+  }
+
+  table > tbody > tr > td[rowspan] {
+    text-align: center;
+    color: #212121;
+    font-size:20px;
+  }

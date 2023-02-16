@@ -66,19 +66,8 @@ nav a{
     padding-top: 3rem;
   }
   
-  
-  .info{
-    margin-left:20%;
-    top: -15rem;
-    position: relative;
-  }
-  .nav-extra{
-    position: absolute;
-    top: 10rem;
-    background-color: #c0ccec;
-    width: 15em;
-    height: auto;
-  }
+
+
   table{
     width: 130vh;
     height: auto;
