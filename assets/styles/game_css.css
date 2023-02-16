@@ -6,13 +6,12 @@ table {
     width:auto;
   }
    tbody {
-    border: blue 5px solid;
     border-collapse: separate;
     background-color: #e9eff0;
     width:auto;
   }
   table > thead > tr > th {
-    padding: 1em;
+    padding: 2rem;
     background-color: #80ccc8;
     color: #fff;
     text-align: center;
@@ -20,12 +19,12 @@ table {
   }
 
   table > tbody > tr > td {
-    padding: 0.5em;
+    padding: 1rem;
     text-align: center;
   }
 
   table > tbody > tr > td[rowspan] {
     text-align: center;
-    color: #212121;
+    color: #252838;
     font-size:20px;
   }
